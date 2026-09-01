@@ -4,8 +4,21 @@ docs_dir = "docs"
 
 # Navigation mapping (optional, or let Zensical auto-discover)
 nav = [
-    { "Home" = "index.md" }
+    { "Home" = "index.md" },
+    { "Infrastructure" = [
+        "infrastructure/design.md",
+        "infrastructure/cluster.md",
+        "infrastructure/networking.md"
+    ]},
+    { "Services" = [
+        "services/tailscale.md",
+        "services/duckdns.md",
+        "services/adguard.md",
+        "services/minecraft.md"
+    ]}
 ]
+
+
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
 toggle.icon = "lucide/sun-moon"
