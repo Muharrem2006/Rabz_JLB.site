@@ -36,3 +36,5 @@ De upstream DNS servers zijn ingesteld via **Settings** -> **DNS settings**:
 https://dns10.quad9.net/dns-query
 quic://dns.adguard-dns.com
 ```
+
+<img src="../assets/adguard-home.png" alt="Adguard Home Admin Dashboard" width="50" />
