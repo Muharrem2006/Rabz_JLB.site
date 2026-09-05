@@ -1,6 +1,7 @@
 [project]
 site_name = "Rabz JLB Site"
 docs_dir = "docs"
+extra_css = ["stylesheets/extra.css"]
 
 # Navigation mapping (optional, or let Zensical auto-discover)
 nav = [
@@ -11,6 +12,7 @@ nav = [
         "infrastructure/networking.md"
     ]},
     { "Services" = [
+        "services/info.md",
         "services/tailscale.md",
         "services/duckdns.md",
         "services/adguard.md",
@@ -18,6 +20,17 @@ nav = [
     ]}
 ]
 
+
+[project.theme]
+variant = "modern"
+logo = "assets/logo.png"
+favicon = "assets/favicon.png"
+font.text = "Inter"
+font.code = "Hack"
+language = "en"
+features = [
+    "navigation.path"
+]
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"

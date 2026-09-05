@@ -1,0 +1,3 @@
+Ik gebruik CT's (Container) die draaien op debian/ Ubuntu. Waarom het gebruik van een CT inplaats van een VM (Virtual Machine) zou je jezelf afvragen.
+Ik heb hiervoor gekozen, omdat je bij een VM meer moet opstellen bij het opstarten zoals een toestenbord, beeldscherm, geluidsysteem, ... . 
+Bij een CT heb je een barebone systeem dat minder RAM als CPU gebruikt, doordat het niet extra matriaal moet draaien.
