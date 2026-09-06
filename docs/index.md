@@ -8,4 +8,4 @@ Welkom op mijn site! Hier documenteer ik mijn projecten rondom mijn thuis homela
 
 Ik probeer deze website minstens maandelijks bij te werken. Bij elke aanpassing hoe klein ook geef ik een heldere en concrete uitleg van wat ik heb gedaan.
 
-Indien je vragen hebt kun je een e-mail versturen via: rabz.jlb@gmail.com
+Indien je vragen hebt kun je een e-mail versturen naar: rabz.jlb@gmail.com
