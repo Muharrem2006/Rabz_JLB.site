@@ -1,16 +1,11 @@
-Welkom naar mijn website waarin ik mijn projecten uitleg die ik thuis 
-heb gemaakt zoals het maken van mijn homelab en de applicaties die 
-erop draaien. Mijn doel met dit is om mijn ervaring met anderen te delen 
-en de problemen die ik heb ondervonden tijdens het toevoegen van 
-applicaties en andere problemen (netwerk, ...) te documenteren en de 
-oplossingen te geven.
+Welkom op mijn site! Hier documenteer ik mijn projecten rondom mijn thuis homelab en alle applicaties die ik erop draai. Mijn doel is om mijn ervaringen te delen en vooral de uitdagingen vast te leggen waar ik tegenaan loop (zoals netwerkproblemen of lastige configuraties) inclusief de concrete oplossingen.
 
-## Voor wie is dit
+## Voor wie is deze site?
 
-- Voor personen die mijn verhaal willen meevolgen
-- Voor personen die hetzelfde of een andere variatie willen maken
-- Om problemen die ze zelf hebben ondervonden hiertussen te vinden
+* **Volgers:** Iedereen die het leuk vindt om mijn homelab-avontuur te volgen.
+* **Mede-enthousiastelingen:** Mensen die een vergelijkbare setup willen bouwen en inspiratie zoeken.
+* **Probleemoplossers:** Iedereen die tegen dezelfde problemen aanloopt en snel een werkende oplossing zoekt.
 
-Ik ga proberen om deze websites ten minste maandelijks bij kleine
-wijzigen te documenteren en te vertellen wat ik heb gedaan met concrete
-uitleg.
+Ik probeer deze website minstens maandelijks bij te werken. Bij elke aanpassing hoe klein ook geef ik een heldere en concrete uitleg van wat ik heb gedaan.
+
+Indien je vragen hebt kun je een e-mail versturen via: rabz.jlb@gmail.com
