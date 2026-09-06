@@ -1,6 +1,6 @@
 AdGuard Home is een netwerkbrede DNS-server die advertenties, trackers en schadelijke domeinen op DNS-niveau blokkeert. Wanneer een apparaat binnen het netwerk een domeinnaam opvraagt, vergelijkt AdGuard deze met een filterlijst. Wordt een domein als reclame of malware herkend, dan wordt de aanvraag direct geblokkeerd. Dit zorgt voor een snellere én veiligere surfervaring voor alle verbonden apparaten.
 
-**Container Specificaties**
+##Container Specificaties
 
 De applicatie draait binnen een LXC-container op Proxmox. Omdat AdGuard Home erg efficiënt is, zijn de systeemeisen erg laag:
 
@@ -11,11 +11,11 @@ De applicatie draait binnen een LXC-container op Proxmox. Omdat AdGuard Home erg
 
 > **Opmerking over het geheugen:** Binnen deze container draait ook de DuckDNS-script-updater. Daarom is er 1024 MiB RAM toegewezen. Draai je enkel AdGuard Home? Dan is 256 MiB RAM ruim voldoende.
 
-**Installatie**
+##Installatie
 
 De basisinstallatie is uitgevoerd via de [officiële AdGuard Home Docker documentatie](https://hub.docker.com/r/adguard/adguardhome). Een handige stapsgewijze handleiding is ook te vinden op [Medium](https://medium.com/@codyrwaits/installing-adguard-home-in-my-home-lab-648393f6064f).
 
-**Gebruikte Filterlijsten**
+##Gebruikte Filterlijsten
 
 De actieve blocklists worden beheerd via **Filters** -> **DNS blocklists**:
 
@@ -28,7 +28,7 @@ De actieve blocklists worden beheerd via **Filters** -> **DNS blocklists**:
 * **NSFW Blocklist** - Filtert expliciete en volwassen content.
 * **HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass** - Voorkomt dat apparaten lokale DNS-filters omzeilen via versleutelde protocollen of proxy-netwerken.
 
-**Upstream DNS configuratie**
+##Upstream DNS configuratie
 
 De upstream DNS servers zijn ingesteld via **Settings** -> **DNS settings**:
 

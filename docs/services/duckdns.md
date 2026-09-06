@@ -1,6 +1,6 @@
 DuckDNS is een gratis dynamische DNS-dienst (DDNS) die een vast webadres (zoals `jouw-subdomein.duckdns.org`) automatisch koppelt aan een dynamisch (wisselend) IP-adres. Dit zorgt ervoor dat services binnen het homelab altijd bereikbaar blijven op een vaste domeinnaam, zelfs wanneer de internetprovider het publieke IP-adres veranderd.
 
-**Container Specificaties**
+## Container Specificaties
 
 DuckDNS draait als een extreem lichte Docker-container. Binnen mijn homelab draait deze container mee op de toegewijde [AdGuard Home LXC-container](adguard.md).
 
@@ -8,12 +8,12 @@ DuckDNS draait als een extreem lichte Docker-container. Binnen mijn homelab draa
 
 **Installatie via Docker Compose**
 
-### 1. DuckDNS Account & Token
+## DuckDNS Account & Token
 1. Log in op [DuckDNS.org](https://www.duckdns.org) en maak een account aan.
 2. Kies het gewenste subdomein en voeg dit toe.
 3. Kopieer de unieke **token** die bovenaan het DuckDNS-dashboard getoond wordt.
 
-### 2. Map en Configuratie Aanmaken
+## Map en Configuratie Aanmaken
 Maak op de target-host een directory aan voor DuckDNS en open het `docker-compose.yml` bestand:
 
 ```
@@ -39,7 +39,7 @@ services:
     restart: unless-stopped
 ```
 
-### 3. Container Starten & Controleren
+##Container Starten & Controleren
 
 Start de service op de achtergrond en controleer de status via de logbestanden:
 
