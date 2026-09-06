@@ -37,4 +37,4 @@ https://dns10.quad9.net/dns-query
 quic://dns.adguard-dns.com
 ```
 
-<img src="../assets/adguard-home.png" alt="Adguard Home Admin Dashboard" width="50" />
+[<img src="../assets/adguard-home.png" alt="Adguard Home Admin Dashboard" width="50" />](https://adguard.com/nl/adguard-home/overview.html)

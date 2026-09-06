@@ -39,4 +39,4 @@ De LXC-container draait 24/7 en bedient al mijn apparaten (zoals mijn MacBook en
 * **Snelle probleemoplossing:** Binnen enkele seconden de status van diensten (zoals de Minecraft-server) controleren en herstellen zonder fysiek thuis te hoeven zijn.
 * **Veilige netwerklaag:** Geen open poorten nodig op de thuisrouter.
 
-<img src="../assets/tailscale-dashboard.png" alt="Tailscale Admin Dashboard" width="50" />
+[<img src="../assets/tailscale-dashboard.png" alt="Tailscale Admin Dashboard" width="50"/>](https://tailscale.com/)
