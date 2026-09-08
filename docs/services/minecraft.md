@@ -82,7 +82,7 @@ services:
         lithostitched
         invview
 
-      # Geheugenoptimalisatie en Garbage Collection vlaggen (G1GC)
+      # Geheugenoptimalisatie en Garbage Collection vlaggen (G1GC) zie https://github.com/itzg/docker-minecraft-server/blob/master/docs/configuration/jvm-options.md
       JVM_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCLiveThresholdPercent=35 -XX:G1MaxNewSizePercent=20 -XX:G1NewSizePercent=10 -XX:G1HeapRegionSize=4M"
     volumes:
       # Koppel de lokale 'data' map aan de container
