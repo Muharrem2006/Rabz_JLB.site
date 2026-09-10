@@ -5,7 +5,7 @@ De Docker container draait binnen een LXC-container op Proxmox (oorspronkelijk g
 * **CPU:** 4 Cores 
 * **RAM:** 10 GiB
 * **Opslag:** 57 GiB
-* **Netwerk:** Statische IP-adres (noodzakelijk voor Port-forwarding; zie [PortForwarding](../infrastructure/networking.md))
+* **Netwerk:** Statische IP-adres (noodzakelijk voor Port-forwarding; zie [PortForwarding](../infrastructure/networking.md#poortdoorsturing-port-forwarding))
 
 ## Installatie
 
