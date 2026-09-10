@@ -2,7 +2,7 @@
 
 Een overzichtelijke en lichtgewicht documentatiesite waarin ik de opbouw, hardware en services van mijn persoonlijke homelab bijhoud. Gebouwd met **Zensical / MkDocs** en gehost via GitHub Pages.
 
-**Bekijk de live site:** [jouw-username.github.io/jouw-repo](https://jouw-username.github.io/jouw-repo)
+**Bekijk de live site:** Moet nog komen
 
 ---
 
